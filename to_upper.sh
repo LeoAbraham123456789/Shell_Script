@@ -2,7 +2,7 @@
 
 for filename in "$@"
 do
-    if [ ! -f $filename ]
+    if [ ! -e $filename ]
     then
         echo "File not found"
     fi
